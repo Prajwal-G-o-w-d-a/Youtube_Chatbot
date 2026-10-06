@@ -22,13 +22,6 @@ Start the Streamlit app:
 ```powershell
 streamlit run streamlit_app.py
 ```
-
-Or launch it through the Python entry point:
-
-```powershell
-python app.py
-```
-
 The video must have English captions. Transcript retrieval, embeddings, and chat
 responses require network access and may incur OpenAI API charges. `YoutubeLoader`
 uses the YouTube transcript service underneath, so it may still be affected by
